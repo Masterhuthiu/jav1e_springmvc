@@ -126,6 +126,11 @@ https://shareprogramming.net/dung-lau-nhung-ban-co-phan-biet-duoc-component-va-b
 
 + Giới thiệu chung về @Controller và @RestController trong Spring framework
 
-
 	(https://laptrinhjavaweb.com/controller-restcontroller-trong-spring-framework-157)
+
+bai 4: Component - Service - Repository
+	(https://techmaster.vn/posts/36169/spring-boot-4-component-service-repository)
+	@Consumer: Layer hay Controller: là tầng giao tiếp với bên ngoài và handler các request từ bên ngoài tới hệ thống.
+	@Service: Layer: Thực hiện các nghiệp vụ và xử lý logic (https://www.geeksforgeeks.org/spring-service-annotation-with-example/)
+	@Repository: Layer: Chịu trách nhiệm giao tiếp với các DB, thiết bị lưu trữ, xử lý query và trả về các kiểu dữ liệu mà tầng Service yêu cầu.
   - 	
